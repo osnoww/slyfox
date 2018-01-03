@@ -32,32 +32,42 @@ body {
    top: 0;
    left: 0;
    z-index:2;
-   animation: leaf1 20s linear infinite;
+	 -webkit-animation: leaf1 20s linear infinite;
+		-moz-animation: leaf1 20s linear infinite;
 }
 
-@keyframes leaf1 {
+@-webkit-keyframes leaf1 {
     from {background-position: 0px 0px, 0px 0px, 0px 0px;}
     to {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
 
+@-moz-keyframes leaf1 {
+    from {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    to {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
 
 .leaf2{
-   background-image:
-   url(images/leaf2.png);
+   background-image:url(images/leaf2.png);
    width: 100%;
    height:100%;
    position: absolute;
    top: 0;
    right: 0;
    z-index:3;
-   animation: leaf2 10s linear infinite;
+	 -webkit-animation: leaf2 10s linear infinite;
+		-moz-animation: leaf2 10s linear infinite;
+
 }
 
-@keyframes leaf2 {
+@-webkit-keyframes leaf2 {
     from {background-position: 0px 0px, 0px 0px, 0px 0px;}
     to {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
 
+@-moz-keyframes leaf2 {
+    from {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    to {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
 
 </style>
 
