@@ -6,13 +6,13 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-		<name>Image Sharer</name>
+		<name>Piq Vault</name>
 		<description>
-			Secure Image Sharer by slyfox
+			Secure Photo Sharer
 		</description>
 	
 
-		
+<plugin name="cordova-plugin-privacyscreen" />		
 
 
 </widget>
